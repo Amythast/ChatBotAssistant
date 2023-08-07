@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.cbas.ffx.common.security.component.PermissionService,\
+  com.cbas.ffx.common.security.component.AccessCloudDeniedHandler,\
+  com.cbas.ffx.common.security.component.CloudSecurityInnerAspect,\
+  com.cbas.ffx.common.security.component.ResourceAuthExceptionEntryPoint,\
+  com.cbas.ffx.common.security.component.CloudResourceAutoConfiguration,\
+  com.cbas.ffx.common.security.feign.CloudFeignClientConfiguration,\
+  com.cbas.ffx.common.security.service.CloudUserDetailsServiceImpl

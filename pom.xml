@@ -5,8 +5,8 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.smakercloud</groupId>
-	<artifactId>smaker</artifactId>
+	<groupId>com.chatbot.assistant</groupId>
+	<artifactId>ffx</artifactId>
 	<version>1.0.0</version>
 	<name>${project.artifactId}</name>
 	<packaging>pom</packaging>
@@ -98,12 +98,12 @@
 	</dependencies>
 
 	<modules>
-		<module>smaker-gateway</module>
-		<module>smaker-auth</module>
-		<module>smaker-back</module>
-		<module>smaker-common</module>
-		<module>smaker-system</module>
-		<module>smaker-swagger</module>
+		<module>ffx-gateway</module>
+		<module>ffx-auth</module>
+		<module>ffx-back</module>
+		<module>ffx-common</module>
+		<module>ffx-system</module>
+		<module>ffx-swagger</module>
 	</modules>
 
 	<dependencyManagement>

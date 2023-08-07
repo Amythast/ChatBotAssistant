@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.cbas.ffx.common.log.LogAutoConfiguration

@@ -21,9 +21,9 @@ import org.springframework.cloud.client.SpringCloudApplication;
  * 网关应用
  */
 @SpringCloudApplication
-public class SmakerGatewayApplication {
+public class CBASGatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmakerGatewayApplication.class, args);
+		SpringApplication.run(CBASGatewayApplication.class, args);
 	}
 }

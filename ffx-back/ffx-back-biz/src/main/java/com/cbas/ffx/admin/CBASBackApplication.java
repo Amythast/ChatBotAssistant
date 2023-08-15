@@ -8,23 +8,23 @@ smakercloud.smaker
 
  */
 
-package com.cbas.ffx.monitor;
+package com.cbas.ffx.admin;
 
 
-import de.codecentric.boot.admin.server.config.EnableAdminServer;
+import com.cbas.ffx.common.security.annotation.EnableCloudFeignClients;
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 
 /**
  * @author renzl
  * @date 2018年06月21日
- * 监控中心
+ * 用户统一管理系统
  */
-@EnableAdminServer
+@EnableCloudFeignClients
 @SpringCloudApplication
-public class SmakerMonitorApplication {
-
+public class CBASBackApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(SmakerMonitorApplication.class, args);
+		SpringApplication.run(CBASBackApplication.class, args);
 	}
+
 }

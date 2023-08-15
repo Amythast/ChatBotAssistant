@@ -16,9 +16,9 @@ import javax.sql.DataSource;
  */
 @EnableZipkinServer
 @SpringCloudApplication
-public class SmakerZipkinApplication {
+public class CBASZipkinApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(SmakerZipkinApplication.class, args);
+		SpringApplication.run(CBASZipkinApplication.class, args);
 	}
 	@Bean
 	public MySQLStorage mySQLStorage(DataSource datasource) {

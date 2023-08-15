@@ -10,9 +10,10 @@ smakercloud.smaker
 
 package com.cbas.ffx.codegen;
 
-import com.cbas.ffx.common.security.annotation.EnableSmakerFeignClients;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author renzl
@@ -20,10 +21,10 @@ import org.springframework.cloud.client.SpringCloudApplication;
  * 代码生成模块
  */
 @SpringCloudApplication
-@EnableSmakerFeignClients
-public class SmakerCodeGenApplication {
+@EnableFeignClients
+public class CBASCodeGenApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmakerCodeGenApplication.class, args);
+		SpringApplication.run(CBASCodeGenApplication.class, args);
 	}
 }

@@ -11,10 +11,10 @@ import reactor.core.publisher.Mono;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class SmakerSwagger2Application {
+public class CBASSwagger2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmakerSwagger2Application.class, args);
+		SpringApplication.run(CBASSwagger2Application.class, args);
 	}
 
     @Bean
